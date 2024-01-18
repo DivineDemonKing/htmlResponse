@@ -1,0 +1,38 @@
+GET http://94.198.50.185:7081/api/users
+
+<> 2024-01-18T151812.200.json
+
+
+###
+POST http://94.198.50.185:7081/api/users
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "James",
+  "lastName": "Brown",
+  "age": 15
+}
+
+<> 2024-01-18T151812.200.txt
+
+
+###
+PUT http://94.198.50.185:7081/api/users
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "James",
+  "lastName": "Brown",
+  "age": 15
+}
+
+<> 2024-01-18T151812-1.200.txt
+
+
+###
+DELETE http://94.198.50.185:7081/api/users/3
+
+<> 2024-01-18T151812-2.200.txt
+
